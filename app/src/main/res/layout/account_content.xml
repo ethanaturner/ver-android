@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/usernameplaceholder"
+        android:id="@+id/username"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="1.5dip"
+        android:background="#C64247"
+        android:layout_marginLeft="@dimen/text_margin"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/dvdcapacityplaceholder"
+        android:textStyle="normal|italic"
+        android:textSize="18sp"
+        android:id="@+id/capacity" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/upgradecapacity"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:id="@+id/upgradebutton"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/signout"
+        android:id="@+id/signoutbutton"
+        android:background="@color/colorAccent"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+</LinearLayout>
